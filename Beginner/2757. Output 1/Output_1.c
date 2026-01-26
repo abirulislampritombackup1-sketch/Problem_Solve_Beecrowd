@@ -12,7 +12,7 @@ int main () {
             } 
             for ( int j=0; j<37; j++ ) {
                 printf(" ");
-            } 
+            }
             for ( int j=0; j<1; j++ ) {
                 printf("|");
             }
