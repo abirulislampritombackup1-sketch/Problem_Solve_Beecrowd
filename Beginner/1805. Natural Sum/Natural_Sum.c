@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main () {
-    long long A,B,sum=0;
-    scanf("%lld %lld",&A,&B);
-    for ( int i=A; i<=B; i++ ) {
-        sum = sum + i;
-    }
+    long long sum = 0;
+    long long  st, end;
+    scanf("%lld %lld",&st,&end);
+    sum = ( st + end ) * ( end - st + 1 ) / 2;
     printf("%lld\n",sum);
     return 0;
 }
